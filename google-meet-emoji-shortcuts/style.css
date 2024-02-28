@@ -1,0 +1,12 @@
+.google-meet-emoji-shortcut-label {
+    background-color:rgba(32, 32, 32, 0.5);
+    border-radius:4px; 
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -20px;
+    margin-right: -5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    z-index:999;
+}

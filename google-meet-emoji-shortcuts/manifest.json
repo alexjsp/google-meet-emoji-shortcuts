@@ -1,0 +1,24 @@
+{
+    "name": "Emoji Reaction Shortcuts for Google Meet",
+    "description": "Add keyboard shortcuts for the emoji reactions in Google Meet.",
+    "homepage_url": "https://github.com/alexjsp/google-meet-emoji-shortcuts",
+    "version": "0.0.1",
+    "version_name": "v0.0.1",
+    "manifest_version": 3,
+    "minimum_chrome_version": "111",
+    "host_permissions": ["https://meet.google.com/"],
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://meet.google.com/*"],
+            "css": ["style.css"],
+            "js": ["google-meet-emoji-shortcuts.js"],
+            "run_at": "document_idle"
+        }
+    ]
+}
