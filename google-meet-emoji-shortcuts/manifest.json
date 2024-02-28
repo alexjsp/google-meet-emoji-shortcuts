@@ -7,9 +7,6 @@
     "manifest_version": 3,
     "minimum_chrome_version": "111",
     "host_permissions": ["https://meet.google.com/"],
-    "permissions": [
-        "storage"
-    ],
     "icons": {
         "128": "icon.png"
     },
